@@ -1,0 +1,44 @@
+body {
+    background-color: gray;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    padding: 10px 15px;
+}
+
+.image-container {
+    display: flex;
+
+    /* Indicates flow direction if elements start exceeding container width */
+    flex-flow: row wrap;
+
+    /* Defines how remaining space is distributed */
+    justify-content: space-around;
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.image-item {
+    padding: 5px;
+    width: 600px;
+    height: 450px;
+    margin-top: 10px;
+    line-height: 150px;
+}
